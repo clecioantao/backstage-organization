@@ -3,6 +3,6 @@ kind: Location
 metadata:
   name: carrefour-corp
   description: Montagem Backstage Carrefour Brazil
-spec:
-  targets:
-    - ./organization.yaml
+# spec:
+#   targets:
+#     - ./organization.yaml
