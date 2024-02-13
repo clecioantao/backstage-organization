@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: carrefour
+  description: Carrefour organization type
+  links:
+    - url: http://www.carrefour.
+      title: Website
+spec:
+  type: organization
+  profile:
+    displayName: Carrefour Corp
+    email: clecio_antao_ext@carrefour.com
+    picture: https://api.dicebear.com/7.x/identicon/svg?seed=Maggie&flip=true&backgroundColor=ffdfbf
+  children: [tecnologia]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-groups
+  description: A collection of all Backstage example Groups
+spec:
+  targets:
+    - ./tecnologia.yaml

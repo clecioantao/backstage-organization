@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: tecnologia
+  description: Superintendência de Tecnologia
+spec:
+  type: superintendencia
+  parent: carrefour
