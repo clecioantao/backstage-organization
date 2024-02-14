@@ -13,12 +13,12 @@ spec:
     email: clecio_antao_ext@carrefour.com
     picture: https://api.dicebear.com/7.x/identicon/svg?seed=Maggie&flip=true&backgroundColor=ffdfbf
   children: [tecnologia]
----
-apiVersion: backstage.io/v1alpha1
-kind: Location
-metadata:
-  name: example-groups
-  description: A collection of all Backstage example Groups
-spec:
-  targets:
-    - ./tecnologia.yaml
+# ---
+# apiVersion: backstage.io/v1alpha1
+# kind: Location
+# metadata:
+#   name: carrefour-groups
+#   description: A collection of all Backstage example Groups
+# spec:
+#   targets:
+#     - tecnologia.yaml

@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: carrefour-corp
+  name: montagem-estrutura
   description: Montagem Backstage Carrefour Brazil
-# spec:
-#   targets:
-#     - ./organization.yaml
+spec:
+  targets:
+    - ./organization.yaml
